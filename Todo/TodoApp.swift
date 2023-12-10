@@ -12,7 +12,9 @@ struct firstTryApp: App {
   let persistenceController = PersistenceController()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            HomeView()
+//            Categoryimage()
             .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

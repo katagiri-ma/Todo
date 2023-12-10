@@ -13,6 +13,11 @@
 		CE7FCA052B22BB3B004330F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7FCA042B22BB3B004330F2 /* Preview Assets.xcassets */; };
 		CE7FCA0D2B22BB91004330F2 /* MyCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE7FCA0B2B22BB91004330F2 /* MyCoreData.xcdatamodeld */; };
 		CE7FCA0F2B22BBDF004330F2 /* Persistent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7FCA0E2B22BBDF004330F2 /* Persistent.swift */; };
+		CE7FCA112B2407BA004330F2 /* Categoryimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7FCA102B2407BA004330F2 /* Categoryimage.swift */; };
+		CEDE6B9B2B25D41500820B93 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE6B9A2B25D41500820B93 /* Color+Extension.swift */; };
+		CEDE6B9D2B25D45B00820B93 /* TodoEntity+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE6B9C2B25D45B00820B93 /* TodoEntity+Extension.swift */; };
+		CEDE6BA12B25DC2700820B93 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE6BA02B25DC2700820B93 /* CategoryView.swift */; };
+		CEDE6BA32B25DF0000820B93 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE6BA22B25DF0000820B93 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +28,11 @@
 		CE7FCA042B22BB3B004330F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE7FCA0C2B22BB91004330F2 /* MyCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyCoreData.xcdatamodel; sourceTree = "<group>"; };
 		CE7FCA0E2B22BBDF004330F2 /* Persistent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistent.swift; sourceTree = "<group>"; };
+		CE7FCA102B2407BA004330F2 /* Categoryimage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categoryimage.swift; sourceTree = "<group>"; };
+		CEDE6B9A2B25D41500820B93 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		CEDE6B9C2B25D45B00820B93 /* TodoEntity+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TodoEntity+Extension.swift"; sourceTree = "<group>"; };
+		CEDE6BA02B25DC2700820B93 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		CEDE6BA22B25DF0000820B93 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +65,12 @@
 		CE7FC9FC2B22BB3A004330F2 /* Todo */ = {
 			isa = PBXGroup;
 			children = (
+				CEDE6B992B25D3EB00820B93 /* Extension */,
 				CE7FC9FD2B22BB3A004330F2 /* TodoApp.swift */,
+				CEDE6BA22B25DF0000820B93 /* HomeView.swift */,
 				CE7FC9FF2B22BB3A004330F2 /* ContentView.swift */,
+				CE7FCA102B2407BA004330F2 /* Categoryimage.swift */,
+				CEDE6BA02B25DC2700820B93 /* CategoryView.swift */,
 				CE7FCA0B2B22BB91004330F2 /* MyCoreData.xcdatamodeld */,
 				CE7FCA0E2B22BBDF004330F2 /* Persistent.swift */,
 				CE7FCA012B22BB3B004330F2 /* Assets.xcassets */,
@@ -71,6 +85,15 @@
 				CE7FCA042B22BB3B004330F2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEDE6B992B25D3EB00820B93 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE6B9A2B25D41500820B93 /* Color+Extension.swift */,
+				CEDE6B9C2B25D45B00820B93 /* TodoEntity+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,9 +166,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDE6BA32B25DF0000820B93 /* HomeView.swift in Sources */,
+				CEDE6B9D2B25D45B00820B93 /* TodoEntity+Extension.swift in Sources */,
 				CE7FCA0F2B22BBDF004330F2 /* Persistent.swift in Sources */,
+				CEDE6B9B2B25D41500820B93 /* Color+Extension.swift in Sources */,
 				CE7FCA002B22BB3A004330F2 /* ContentView.swift in Sources */,
+				CE7FCA112B2407BA004330F2 /* Categoryimage.swift in Sources */,
 				CE7FC9FE2B22BB3A004330F2 /* TodoApp.swift in Sources */,
+				CEDE6BA12B25DC2700820B93 /* CategoryView.swift in Sources */,
 				CE7FCA0D2B22BB91004330F2 /* MyCoreData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
