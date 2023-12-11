@@ -6,7 +6,7 @@
 ## インストール方法
 
 1. Code → Download ZIP
-![image](https://github.com/katagiri-ma/Todo/assets/118709484/d3a48871-8036-4fde-a4d1-f822728df86d)
+![image](https://github.com/katagiri-ma/Todo/assets/118709484/8e9e6e12-5c87-46b9-b324-af73e065f4ca)
 
 2. zipファイルを解凍
 
